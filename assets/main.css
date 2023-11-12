@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap);
+html
+{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+
+.combank-chat {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+  z-index:100 ;
+}
+ .HandOut{
+    position: absolute;
+    display: none;
+    right: 0px;
+    bottom: 0px;
+  
+}
+.combank-chat:hover .HandOut{
+display: inline-block;
+}
+.combank-chat:hover .HandOpen{
+    display: none;
+    }
+
+body {
+    color:#111111;
+    font-size:1.4rem;
+    line-height:1.6;
+  }
+.multilingual-options{
+    display: inline-block
+    
+}
