@@ -7,33 +7,65 @@ padding: 0;
 html
 {font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 
+body {
+  color:#111111;
+  font-size:1.4rem;
+  line-height:1.6;
+}
+
+/* chat girl lower right bottom */
 .combank-chat {
   position: absolute;
+  margin: 10px;
+  right: 10px;
+  bottom: 10px;
+  display: inline-block;
+  z-index: 100;
+}
+
+.HandOut {
+  position: absolute;
+  display: none;
   right: 0px;
   bottom: 0px;
-  display: inline-block;
-  z-index:100 ;
-}
- .HandOut{
-    position: absolute;
-    display: none;
-    right: 0px;
-    bottom: 0px;
-  
-}
-.combank-chat:hover .HandOut{
-display: inline-block;
-}
-.combank-chat:hover .HandOpen{
-    display: none;
-    }
 
-body {
-    color:#111111;
-    font-size:1.4rem;
-    line-height:1.6;
-  }
+}
+
+.combank-chat:hover .HandOut {
+  display: inline-block;
+}
+
+.combank-chat:hover .HandOpen {
+  display: none;
+}
+
+/* Language site */
+
+.top_nav{
+  background: #fafafa;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-side{
+ ; 
+}
 .multilingual-options{
-    display: inline-block
+    list-style: none;
+    display:inline-flex;
+    gap: 10px;
+    font-size: 12px;
+    color: darkgrey;
     
+    
+}
+
+.right-side{
+
+}
+
+.fsize{
+  font-size: 15px;
 }
