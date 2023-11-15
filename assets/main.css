@@ -49,9 +49,7 @@ body {
   flex-wrap: wrap;
 }
 
-.left-side{
- ; 
-}
+
 .multilingual-options{
     list-style: none;
     display:inline-flex;
@@ -62,10 +60,10 @@ body {
     
 }
 
-.right-side{
-
-}
-
 .fsize{
   font-size: 15px;
+}
+.secondary-menu-container{
+  display: flex;
+  list-style: none;
 }
