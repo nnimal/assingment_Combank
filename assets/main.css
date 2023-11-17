@@ -15,12 +15,12 @@ body {
 
 /* chat girl lower right bottom */
 .combank-chat {
-  position: absolute;
+  position: fixed;
   margin: 10px;
   right: 10px;
   bottom: 10px;
   display: inline-block;
-  z-index: 100;
+  z-index: 2;
 }
 
 .HandOut {
@@ -75,4 +75,28 @@ body {
 .footer_mid_col{
   color: darkgray;
   font-size: 16px;
+}
+
+.social{
+
+  display: inline-flex;
+  list-style: none;
+ 
+  
+}
+
+.bottom_Social{
+  padding: 10px;
+ 
+}
+
+.column{
+  color: #e5e5e5;
+ list-style: none;
+
+}
+
+.column l {
+  color: #e5e5e5;
+  font-size: 20px;
 }
